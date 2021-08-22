@@ -1,6 +1,7 @@
 // ১. Variable কি ?
 
-    //Ans: Variable মানে এমন কিছু যা পরিবর্তিত হতে পারে। জাভাস্ক্রিপ্টে, একটি variable ডাটা সংরক্ষণ করে যা পরে পরিবর্তন করা যায়। বিভিন্ন সময়ে এই ডাটা ব্যবহার করা যায় আমাদের সুবিধামত।জাভাস্ক্রিপ্ট এ variable গোষণা করা হয় var,let & const key word দ্বারা।
+    /*Ans: Variable মানে এমন কিছু যা পরিবর্তিত হতে পারে। জাভাস্ক্রিপ্টে, একটি variable ডাটা সংরক্ষণ করে যা পরে পরিবর্তন করা যায়।
+    বিভিন্ন সময়ে এই ডাটা ব্যবহার করা যায় আমাদের সুবিধামত।জাভাস্ক্রিপ্ট এ variable গোষণা করা হয় var,let & const key word দ্বারা।*/
 
 // ২. Variable কিভাবে লিখতে হয় ?
     /* Ans: There are 3 ways to declare a JavaScript   variable:
@@ -18,9 +19,11 @@
        */
 
 // ৩. string type variable কি ও কি ভাবে লিখতে হয় ?
-     /*Ans: জাভাস্ক্রিপ্ট এ স্ট্রিং হলো টেক্সচুয়াল ডেটা উপস্থাপন করতে ব্যবহৃত হয়।জাভাস্ক্রিপ্ট স্ট্রিংগুলি অপরিবর্তনীয়।এর মানে হল যে একবার একটি স্ট্রিং তৈরি হয়ে গেলে, এটি সংশোধন করা সম্ভব নয়।
+     /*Ans: জাভাস্ক্রিপ্ট এ স্ট্রিং হলো টেক্সচুয়াল ডেটা উপস্থাপন করতে ব্যবহৃত হয়।জাভাস্ক্রিপ্ট স্ট্রিংগুলি অপরিবর্তনীয়।
+     এর মানে হল যে একবার একটি স্ট্রিং তৈরি হয়ে গেলে, এটি সংশোধন করা সম্ভব নয়।
      Example:
-     In JavaScript, there are three ways to write a string-তিন ভাবে লিখা যায়।  ১. single quotes এর ভেতর (' '),। ২.double quotes  এর ভেতর (" "). ৩.backticks এর ভেতর  (` `). 
+     In JavaScript, there are three ways to write a string-তিন ভাবে লিখা যায়।  ১. single quotes এর ভেতর (' '),। ২.double quotes  এর ভেতর (" ").
+     ৩.backticks এর ভেতর  (` `). 
         let firstName = 'Kishor'
         let lastName = "Ahemd"
         let fullName = `${firstName} ${lastName}`
@@ -116,7 +119,8 @@
 
 // ১১. Math.round() এর ব্যাবহার লিখুন ।
     /*Ans:
-      দশমিক এর পর ১ থেকে 4 থাকলে সংখ্যাটিকে downward to its nearest integer এ পরিণত করবে। এবং দশমিক এর পর 5 থেকে 9 থাকলে সংখ্যাটিকে upward to its nearest integer এ পরিণত করবে.
+      দশমিক এর পর ১ থেকে 4 থাকলে সংখ্যাটিকে downward to its nearest integer এ পরিণত করবে।
+      এবং দশমিক এর পর 5 থেকে 9 থাকলে সংখ্যাটিকে upward to its nearest integer এ পরিণত করবে.
       example: 
       let num1 = 1.4;
       console.log(Math.round(num1));// 1
